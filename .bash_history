@@ -1350,3 +1350,11 @@ chmod -R 755 resources/views
 php artisan view:clear
 php artisan cache:clear
 php artisan tinker
+ls -al ~/.ssh
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git push -u origin main
+git status
+git init
+git add .
+git commit -m "Initial commit"
