@@ -1,0 +1,8 @@
+{
+    "remote.SSH.useCurlAndWgetConfigurationFiles": true,
+    "remote.SSH.configFile": "C:\\Users\\Lenovo\\.ssh\\config",
+    "workbench.startupEditor": "none",
+    "remote.SSH.remotePlatform": {
+        "uws-b01734499.duckdns.org": "linux"
+    }
+}

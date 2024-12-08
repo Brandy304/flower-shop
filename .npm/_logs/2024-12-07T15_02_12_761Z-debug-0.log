@@ -1,0 +1,38 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v23.2.0/bin/node /home/ubuntu/.nvm/versions/node/v23.2.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v23.2.0
+3 silly config load:file:/home/ubuntu/.nvm/versions/node/v23.2.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ubuntu/.cache/typescript/5.6/.npmrc
+5 silly config load:file:/home/ubuntu/.npmrc
+6 silly config load:file:/home/ubuntu/.nvm/versions/node/v23.2.0/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2024-12-07T15_02_12_761Z-
+10 verbose logfile /home/ubuntu/.npm/_logs/2024-12-07T15_02_12_761Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2101608448 maxSize:525402112 maxEntrySize:262701056
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/types-registry 144ms (cache revalidated)
+16 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:586072 disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest types-registry@0.1.697
+19 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/types-registry 46ms (cache revalidated)
+21 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1224560 disposed:false
+22 silly placeDep ROOT types-registry@0.1.697 REPLACE for:  want: 0.1.697
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@types/alpinejs': [ '3.13.11' ],
+24 silly audit   '@types/node': [ '22.10.1' ],
+24 silly audit   'undici-types': [ '6.20.0' ],
+24 silly audit   'types-registry': [ '0.1.697' ]
+24 silly audit }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 115ms
+26 silly audit report {}
+27 verbose cwd /home/ubuntu/.cache/typescript/5.6
+28 verbose os Linux 6.8.0-1019-aws
+29 verbose node v23.2.0
+30 verbose npm  v10.9.0
+31 verbose exit 0
+32 info ok

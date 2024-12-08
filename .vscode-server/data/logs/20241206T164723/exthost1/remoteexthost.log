@@ -1,0 +1,19 @@
+2024-12-06 16:47:34.347 [info] Extension host with pid 2170 started
+2024-12-06 16:47:34.347 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b44e3ff2cc5072e8542331484ead4db2/vscode.lock'
+2024-12-06 16:47:34.354 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b44e3ff2cc5072e8542331484ead4db2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-12-06 16:47:34.389 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b44e3ff2cc5072e8542331484ead4db2/vscode.lock': The pid 2243 appears to be gone.
+2024-12-06 16:47:34.389 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b44e3ff2cc5072e8542331484ead4db2/vscode.lock': Deleting a stale lock.
+2024-12-06 16:47:34.415 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b44e3ff2cc5072e8542331484ead4db2/vscode.lock': Lock acquired.
+2024-12-06 16:47:34.574 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-12-06 16:47:34.575 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-06 16:47:34.575 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-12-06 16:47:34.577 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-12-06 16:47:34.763 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-12-06 16:47:34.763 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-12-06 16:47:35.372 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-12-06 16:47:35.550 [info] Eager extensions activated
+2024-12-06 16:47:35.550 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-06 16:47:35.551 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-06 16:47:41.178 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-06 16:47:41.178 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-12-06 16:47:41.179 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
